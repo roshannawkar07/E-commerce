@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap");
+@font-face {
+  font-family: "Nothing";
+  src: url("/fonts/ndot-47-inspired-by-nothing.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* @import "tailwindcss"; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr {
+  display: block;
+}
+
+* {
+  font-family: Outfit;
+}
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  a.active {
+    background-color: rgb(175, 24, 24);
+    color: white;
+  }
+}
+
+.nav {
+  font-family: Nothing;
+}
