@@ -22,10 +22,9 @@ connectCloudinary();
 app.use(
   cors({
     origin: [
-      "http://localhost:5173", // frontend
-      "http://localhost:5174", // admin panel
-      "https://tredora-back.onrender.com", // backend itself (important)
-      "https://your-frontend-url", // add your real frontend URL later
+      "http://localhost:5173", // frontend local
+      "http://localhost:5174", // admin panel local
+      "https://nothing-xi-seven.vercel.app", // frontend deployed on Vercel
       "https://your-admin-url", // add admin URL later
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
