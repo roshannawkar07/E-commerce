@@ -1,7 +1,6 @@
 import Title from "../components/Title";
 import { assets } from "../assets/assets";
 import NewsletterBox from "../components/NewsletterBox";
-import center from "../assets/center.jpg";
 
 const About = () => {
   return (
@@ -11,14 +10,17 @@ const About = () => {
       </div>
 
       <div className="my-10 flex flex-col md:flex-row gap-16">
-        <img className="w-full md:max-w-[450px]" src={center} alt="" />
+        <img
+          className="w-full object-cover md:max-w-[450px]"
+          src="/images/about.jpg"
+          alt=""
+        />
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-gray-600">
           <p>
-            Tredora was created from a deep passion for innovation and a vision
-            to transform the online shopping experience. What started as a
-            simple idea—making it easy for people to discover, explore, and
-            purchase a wide variety of products from the comfort of their
-            homes—has grown into a dynamic platform built around customer needs.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            incidunt facilis, nostrum placeat quibusdam optio veritatis cum
+            magnam officia modi reiciendis cumque architecto itaque? Saepe ipsum
+            ratione veritatis voluptatum eveniet.
           </p>
           <p>
             From day one, we’ve been committed to offering a diverse collection
@@ -29,11 +31,9 @@ const About = () => {
           </p>
           <b className="text-gray-800">Our Mission</b>
           <p>
-            At Tredora, our mission is to empower customers with choice,
-            convenience, and confidence. We strive to deliver a seamless
-            shopping experience that goes above and beyond—ensuring smooth
-            browsing, effortless ordering, timely delivery, and exceptional
-            support every step of the way.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            sint nam exercitationem qui autem iure aut reiciendis cupiditate
+            iste hic.
           </p>
         </div>
       </div>

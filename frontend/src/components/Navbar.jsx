@@ -87,7 +87,7 @@ const Navbar = () => {
 
       {/* Sidebar Menu (Now Works for All Screens) */}
       <div
-        className={`fixed top-0 right-0 bottom-0 bg-white transition-all duration-300 ${
+        className={`fixed top-0 right-0 bottom-0 bg-gradient-to-r from-slate-300 to-slate-500 transition-all duration-300 ${
           visible ? "w-full" : "w-0"
         } overflow-hidden`}
       >
@@ -97,12 +97,12 @@ const Navbar = () => {
             className="flex items-center gap-4 p-4 cursor-pointer border-b"
           >
             <img className="h-4 rotate-180" src={assets.dropdown_icon} alt="" />
-            <p>Back</p>
+            <p className="nav">Back</p>
           </div>
 
           <NavLink
             onClick={() => setVisible(false)}
-            className="py-3 pl-6 border-b"
+            className=" nav py-3 pl-6 border-b"
             to="/"
           >
             HOME
@@ -110,7 +110,7 @@ const Navbar = () => {
 
           <NavLink
             onClick={() => setVisible(false)}
-            className="py-3 pl-6 border-b"
+            className="nav py-3 pl-6 border-b"
             to="/collection"
           >
             COLLECTION
@@ -118,7 +118,7 @@ const Navbar = () => {
 
           <NavLink
             onClick={() => setVisible(false)}
-            className="py-3 pl-6 border-b"
+            className=" nav py-3 pl-6 border-b"
             to="/about"
           >
             ABOUT
@@ -126,7 +126,7 @@ const Navbar = () => {
 
           <NavLink
             onClick={() => setVisible(false)}
-            className="py-3 pl-6 border-b"
+            className=" nav py-3 pl-6 border-b"
             to="/contact"
           >
             CONTACT

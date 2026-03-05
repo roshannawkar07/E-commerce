@@ -20,9 +20,9 @@ const Contact = () => {
           <p className=" text-gray-500">
             Shegaon <br /> Maharashtra
           </p>
-          <p className=" text-gray-500">Email:tredora@gmail.com</p>
+          <p className=" text-gray-500">Email:nothing.com</p>
           <p className="font-semibold text-xl text-gray-600">
-            Careers at T R E D O R A
+            Careers at NOTHING
           </p>
           <p className=" text-gray-500">
             Learn more about our teams and job openings.
