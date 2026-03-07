@@ -23,7 +23,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", // frontend local
-      "http://localhost:5174", // admin panel local
+      "https://nothingadminpalal.vercel.app", // admin panel local
       "https://nothing-xi-seven.vercel.app", // frontend deployed on Vercel
       "https://your-admin-url", // add admin URL later
     ],
